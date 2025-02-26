@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link, useLocation } from 'react-router-dom';
 import { flights } from '../data';
-import StarRating from '../components/StarRating';
+import StarRating from '../Components/StarRating';
 
 const Flights = () => {
   const location = useLocation();
