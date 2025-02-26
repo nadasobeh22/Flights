@@ -19,9 +19,6 @@ const cardVariants = {
       duration: 0.8,
     },
   },
-};
-
-const hoverVariants = {
   hover: {
     scale: 1.05,
     transition: {
@@ -66,7 +63,6 @@ const Trips = () => {
             whileInView="onscreen"
             viewport={{ once: true, amount: 0.5 }}
             whileHover="hover"
-            variants={hoverVariants}
           >
             <img
               src={offer.image}
